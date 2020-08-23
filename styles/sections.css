@@ -1,6 +1,9 @@
 .main-background {
-    background-color: rgb(213, 234, 237)
+    background-color: rgb(213, 234, 237);
+}
+.main-title-background {
+    background-image: url(https://psv4.userapi.com/c856428/u41858280/docs/d14/591b3f89c5d7/banner.jpg?extra=DTQN595Kt4I9Arx-NJZ45KBuDB-bR82dsKwjBpGKptBf7k9dnm259i_rztqpmvdI8oey-nfr3d0KxkM1cdfCs8LAiNAmdgAEQoP2DcaJOC7En5ghBIqLjQiTnwI3vLYFNS4fHBi0scpJ2YYYcQZd0wES3Q);
 }
 .left-background {
-    background-color: rgb(225, 233, 235)
+    background-color: rgb(225, 233, 235);
 }
