@@ -31,10 +31,8 @@ p.left-background {
     border-color: black!important;
     padding: 0!important;
 }
-
-.projects-background {
-    background-image: url(https://psv4.userapi.com/c856428/u41858280/docs/d7/443d383e045a/ava.jpg?extra=e4q360dTEvKLHxLHAIRSrjpQMyGoDR1CbDEoykcvb76dr8Su69t4HWQjASyOuvX5BlN-2EVbF4ZthjTlt70nKJmMNw2OytAdVegmkcba_ZU6ceOOf2SEmPk_CaLjKBgCxGsedjSEYcqTVaEWho3uIaCXAw);
-    width: 100vw;
+.remove-padding {
+    padding: 0!important;
 }
 .projects-font {
     font-size: 36px;
