@@ -1,9 +1,45 @@
 .main-background {
-    background-color: rgb(213, 234, 237);
+    padding: 10px;
 }
+
 .main-title-background {
-    background-image: url(https://psv4.userapi.com/c856428/u41858280/docs/d14/591b3f89c5d7/banner.jpg?extra=DTQN595Kt4I9Arx-NJZ45KBuDB-bR82dsKwjBpGKptBf7k9dnm259i_rztqpmvdI8oey-nfr3d0KxkM1cdfCs8LAiNAmdgAEQoP2DcaJOC7En5ghBIqLjQiTnwI3vLYFNS4fHBi0scpJ2YYYcQZd0wES3Q);
+    width: 100vw;
+    margin-bottom: 25px;
 }
-.left-background {
-    background-color: rgb(225, 233, 235);
+
+p.left-background {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-title {
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.section-title-background {
+    background: black;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.section-title-container {
+    border-width: 5px!important;
+    border-color: black!important;
+    padding: 0!important;
+}
+
+.projects-background {
+    background-image: url(https://psv4.userapi.com/c856428/u41858280/docs/d7/443d383e045a/ava.jpg?extra=e4q360dTEvKLHxLHAIRSrjpQMyGoDR1CbDEoykcvb76dr8Su69t4HWQjASyOuvX5BlN-2EVbF4ZthjTlt70nKJmMNw2OytAdVegmkcba_ZU6ceOOf2SEmPk_CaLjKBgCxGsedjSEYcqTVaEWho3uIaCXAw);
+    width: 100vw;
+}
+.projects-font {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    line-height: 1.6;
 }
