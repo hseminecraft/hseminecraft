@@ -45,7 +45,6 @@ p.left-background {
 }
 
 .footer-background {
-    background: rgb(57, 149, 226)!important;
     background: linear-gradient(0deg, rgba(57, 149, 226, 1) 0%, rgba(39, 75, 153, 1) 100%)!important;
     padding: 10px;
 }
