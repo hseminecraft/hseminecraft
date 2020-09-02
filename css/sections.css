@@ -3,7 +3,7 @@
 }
 
 .page-gradient {
-    background: linear-gradient(0deg, rgba(39, 75, 153, 1) 0%, rgba(57, 149, 226, 1) 100%)!important;
+    background: linear-gradient(150deg, rgba(39, 75, 153, 1) 0%, rgba(57, 149, 226, 1) 100%)!important;
 }
 
 .main-title-background {
@@ -21,6 +21,13 @@
 .description {
     font-size: calc(1rem + 1.5vw) !important;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.description-sm {
+    font-size: calc(0.25rem + 1.5vw) !important;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .section-title-background {
@@ -34,6 +41,8 @@
     border-width: 5px!important;
     border-color: black!important;
     padding: 0!important;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .better-sapcing {
@@ -57,11 +66,6 @@
     line-height: 1.6;
 }
 
-.footer-background {
-    background: rgb(248,249,250)!important;
-    padding: 10px;
-    margin-top: 20px;
-}
 .icon {
     height: 50px;
     width: 50px;
@@ -77,4 +81,7 @@
 }
 .remove-padding{
     padding: 0!important;
+}
+* {
+    border-radius:0!important;
 }
