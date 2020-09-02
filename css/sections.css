@@ -2,6 +2,10 @@
     padding: 10px;
 }
 
+.page-gradient {
+    background: linear-gradient(0deg, rgba(39, 75, 153, 1) 0%, rgba(57, 149, 226, 1) 100%)!important;
+}
+
 .main-title-background {
     width: 100%;
     margin-bottom: 25px;
@@ -64,6 +68,13 @@
     padding: 0px!important;
     text-align: center;
     text-decoration: none;
-    filter: invert(100%);
+    /* filter: invert(100%); */
     margin: 50px;
+}
+
+.partner-title{
+    text-align: center!important;
+}
+.remove-padding{
+    padding: 0!important;
 }

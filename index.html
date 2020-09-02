@@ -10,13 +10,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-  <link rel="stylesheet" type="text/css"
-    href="https://raw.githack.com/hseminecraft/hseminecraft/master/css/sections.css">
-  <!-- <link rel="stylesheet" type="text/css" href="C:\Users\dazra\Desktop\hseminecraft\hseminecraft\css\sections.css"> -->
+  <!-- <link rel="stylesheet" type="text/css"
+    href="https://raw.githack.com/hseminecraft/hseminecraft/master/css/sections.css"> -->
+  <link rel="stylesheet" type="text/css" href="C:\Users\dazra\Desktop\hseminecraft\hseminecraft\css\sections.css">
   <title>HSE Minecraft!</title>
 </head>
 
-<body>
+<body class="page-gradient">
   <!-- NAVBAR -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
@@ -55,13 +55,14 @@
   </nav>
   <!-- MAIN PAGE TITLE-->
   <img
-    src="https://raw.githack.com/hseminecraft/hseminecraft/master/images/banner.png"
+    src="https://rawcdn.githack.com/hseminecraft/hseminecraft/b409682ef71bffb33fb3b5ed00b0e96ddf691039/images/banner.png"
     alt="HSE Minecraft banner" class="main-title-background">
   <!-- MAIN SECTION -->
-  <!-- WHO ARE WE?-->
+
+  <!--ABOUT-->
   <div id="about" class=" d-flex justify-content-start container-xl border-bottom border-dark section-title-container">
     <div class="section-title-background col-">
-      <p class="section-title">Кто мы?</p>
+      <p class="section-title">О нас</p>
     </div>
   </div>
   <section class="container-md">
@@ -75,16 +76,16 @@
       </div>
     </div>
   </section>
-  <!-- WHAT ARE WE?-->
-  <div id="projects"
-    class=" d-flex justify-content-start container-xl border-bottom border-dark section-title-container">
+
+  <!--PROJECTS-->
+  <div id="team" class=" d-flex justify-content-start container-xl border-bottom border-dark section-title-container">
     <div class="section-title-background col-">
-      <p class="section-title">Наши проекты</p>
+      <p class="section-title">Проекты</p>
     </div>
   </div>
   <div class="better-sapcing container-sm">
-    <div class="content-sm d-flex justify-content-center">
-      <div id="carouselExampleCaptions" class="carousel slide d-flex justify-content-center" data-ride="carousel">
+    <div class="content-sm">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -94,7 +95,7 @@
           <div class="carousel-item active">
             <img
               src="https://rawcdn.githack.com/hseminecraft/hseminecraft/3f7ae9a0cdf56dba4898fad30eacc6a2390ff16c/images/caricino.jpg"
-              class="d-block w-80" alt="Царицыно">
+              class="d-block w-100" alt="Царицыно">
             <div class="carousel-caption d-none d-md-block">
               <p><span class="projects-title-font">Царицыно</span></p>
               <p><span class="projects-font">Реализация парка в игре, проведение экскурсий и концертов онлайн.</span>
@@ -104,7 +105,7 @@
           <div class="carousel-item">
             <img
               src="https://rawcdn.githack.com/hseminecraft/hseminecraft/5b3958123a607cf645cd2a299526412a036d5213/images/tanuki.jpg"
-              class="d-block w-80" alt="Тануки">
+              class="d-block w-100" alt="Тануки">
             <div class="carousel-caption d-none d-md-block">
               <p><span class="projects-title-font">Тануки</span></p>
               <p><span class="projects-font">Строительный конкурс и розыгрыш купонов.</span></p>
@@ -113,7 +114,7 @@
           <div class="carousel-item">
             <img
               src="https://rawcdn.githack.com/hseminecraft/hseminecraft/d124aae8b9718ffd21b1bf32b1606a411bd05dae/images/geekpicnic.jpg"
-              class="d-block w-80" alt="Geek Picnic">
+              class="d-block w-100  " alt="Geek Picnic">
             <div class="carousel-caption d-none d-md-block">
               <p><span class="projects-title-font">Geek Picnic</span></p>
               <p><span class="projects-font">Лекция о социальном дистанцировании и конкурс на строительство эко-домов
@@ -132,8 +133,64 @@
       </div>
     </div>
   </div>
+
+  <!--TEAM-->
+  <div id="team" class="d-flex justify-content-start container-xl border-bottom border-dark section-title-container">
+    <div class="section-title-background col-">
+      <p class="section-title">Команда</p>
+    </div>
+  </div>
+  <section class="container-md">
+    <div class="row">
+      <div class="col-2">
+      </div>
+      <div class="col-8 main-background ">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="..." class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Азиз Тулаганов</h5>
+                <p class="card-text">Руководитель, старший менеджер проектов, старший администратор сервера</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="..." class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Настя Артюшина</h5>
+                <p class="card-text">Менеджер проектов, Администратор сервера</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="..." class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Рома Курочкин</h5>
+                <p class="card-text">Руководитель, старший менеджер проектов</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!--PARTNERS-->
-  <div id="partners" class="d-flex justify-content-end container-xl border-bottom border-dark section-title-container">
+  <div id="partners"
+    class="d-flex justify-content-start container-xl border-bottom border-dark section-title-container">
     <div class="section-title-background col-">
       <p class="section-title">Партнеры</p>
     </div>
@@ -146,26 +203,39 @@
         <div class="card d-flex justify-content-end" style="width:min-content; width:30%">
           <img
             src="https://rawcdn.githack.com/hseminecraft/hseminecraft/bda92fec9859854d35e416fd6348e38426923b17/images/aternos_logo.png"
-            class=" mx-auto d-bloc " alt="aternos" style="width:min-content">
-          <div class="card-body">
-            <h5 class="card-title">Aternos</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            class=" mx-auto d-bloc d-flex justify-content-center " alt="aternos">
+          <div class="partner-title">
+            <h5>Aternos</h5>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
         </div>
       </div>
     </div>
   </section>
+
+  <!--Членство-->
+  <div id="membership"
+    class=" d-flex justify-content-start container-xl border-bottom border-dark section-title-container">
+    <div class="section-title-background col-">
+      <p class="section-title">Членство</p>
+    </div>
+  </div>
+  <section class="container-md">
+    <div class="row">
+      <div class="col-2">
+      </div>
+      <div class="col-8 main-background">
+        <p class="description">Minecraft НИУ ВШЭ - это проект, который позволит объединить всех студентов Вышки в одной
+          из самых популярных
+          многопользовательских игр последнего десятилетия - Minecraft.</p>
+      </div>
+    </div>
+  </section>
+
   <!--CONTACTS-->
   <div id="contacts"
     class="d-flex justify-content-start container-xl border-bottom border-dark section-title-container">
     <div class="section-title-background col-">
-      <p class="section-title">Где нас найти?</p>
+      <p class="section-title">Контакты</p>
     </div>
   </div>
   <section class="container-md d-flex justify-content-around">
