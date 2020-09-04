@@ -57,6 +57,11 @@
     background-color: black;
     line-height: 1.6;
 }
+.card-sm-font {
+    font-size: calc(0.1rem + 1vw) !important;
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
 
 .projects-title-font {
     font-size: calc(0.25rem + 1.5vw) !important;
@@ -95,4 +100,8 @@
     padding: 20px;
     display: flex;
     justify-content: center;
+}
+.team-photo {
+    width: 255px;
+    height: 255px;
 }
